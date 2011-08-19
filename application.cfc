@@ -5,6 +5,7 @@
 	<cfset THIS.ApplicationTimeout = CreateTimeSpan(0, 0, 1, 0)/>
 	<cfset THIS.SessionManagement = true/>
 	<cfset THIS.SetClientCookies = false/>
+	<cfset this.inmemoryfilesystem.size = 30>
 
 	<!--- Define the page request properties. --->
 	<cfsetting requesttimeout="20" showdebugoutput="false" enablecfoutputonly="false"/>
